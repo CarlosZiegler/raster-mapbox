@@ -136,18 +136,7 @@ const MapComponent = () => {
   return (
     <div>
       <div>
-        <button
-          onClick={() =>
-            mapRef?.current?.addSource("custom-raster", {
-              type: "raster-array",
-              // Replace this URL with a 'mapbox://TILESET_ID'
-              url: "mapbox://bowline.0123_12_000_to_006-grib2",
-              tileSize: 512,
-            })
-          }
-        >
-          Add Source
-        </button>
+        <h1>Mapbox</h1>
       </div>
       <div
         className="w-full h-screen p-8 bg-gray-100 text-white"
